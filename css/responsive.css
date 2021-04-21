@@ -1,0 +1,586 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .navbar-nav{
+    margin: 20px 0 20px 0 !important;
+  }
+  .nav-section .btn{
+    padding: 10px 20px;
+  }
+  .banner-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .banner-section .ranking h6{
+    margin: 0 15px 0 3px;
+  }
+  .banner-section .banner-text h1{
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .banner-section .banner-btn{
+    display: flex;
+  }
+  .banner-section .btn{
+    padding: 10px 20px;
+  }
+  .partner-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .features-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .features-section .feature-img{
+    display: flex;
+    align-items: center;
+  }
+  .features-section .features-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .features-section .features-heading p{
+    width: 90%;
+  }
+  .features-section .top-item p{
+    width: 100%;
+  }
+  .features-section .middle-item p{
+    width: 100%;
+  }
+  .features-section .bottom-item p{
+    width: 100%;
+  }
+  .jackpot-section {
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .jackpot-section .jackpot-heading{
+    padding: 25px 0 !important;
+  }
+  .jackpot-section .jackpot-heading .left h2{
+    font-size: 30px;
+    width: 100%;
+  }
+  .jackpot-section .jackpot-heading .right p{
+    width: 95%;
+  }
+  .jackpot-section .jackpot-content{
+    padding: 25px 0 !important;
+  }
+  .jackpot-section .jackpot-content .left p{
+    width: 100%;
+  }
+  .jackpot-section .jackpot-content .center p{
+    width: 100%;
+  }
+  .jackpot-section .jackpot-content .right p{
+    width: 100%;
+  }
+  .integration-section {
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .integration-section h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .integration-section p{
+    width: 100%;
+  }
+  .integration-section .btn{
+    padding: 10px 20px;
+  }
+  .integration-section .col-md-5{
+    display: flex;
+    align-items: center;
+  }
+  .why-app-section {
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .why-app-section .section-heading h2{
+    font-size: 30px;
+  }
+  .why-app-section .section-content p{
+    width: 95%;
+  }
+  .ultimate-features-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .ultimate-features-section .ultimate-features-heading h2{
+    width: 45%;
+    font-size: 30px;
+  }
+  .ultimate-features-section .ultimate-features-text h3{
+    width: 75%;
+    line-height: 30px;
+  }
+  .ultimate-features-section .btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .ultimate-features-section .ultimate-features-img{
+    top: 40%;
+  }
+  .pricing-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .pricing-section .pricing-heading h2{
+    font-size: 30px;
+  }
+  .pricing-section .pricing-card-body .btn {
+    padding: 10px 20px;
+  }
+  .pricing-section .pricing-heading p {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .testimonial-section {
+    padding: 25px 0;
+    height: 700px;
+  }
+  .testimonial-section .testimonial-content .testimonial-heading h2{
+    font-size: 35px;
+    width: 100%;
+  }
+  .testimonial-section .testimonial-content .testimonial-heading p{
+    width: 100%;
+  }
+  .testimonial-section .review-slider .owl-nav .owl-prev{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  .testimonial-section .review-slider .owl-nav .owl-next{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  .testimonial-section .review-slider .owl-nav {
+    position: absolute;
+    right: 0%;
+    top: 82%;
+  }
+  .testimonial-section .review-slider .client-section .client-img{
+    width: 20%;
+  }
+  .faq-section {
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .faq-section .faq-heading p{
+    width: 70%;
+  }
+  .app-download-section{
+    margin: 25px 0;
+    padding: 25px 0;
+  }
+  .app-download-section .app-download-content h2{
+    font-size: 30px;
+  }
+  .app-download-section .app-download-content .download-icon img{
+    width: 40%;
+  }
+  .app-download-section .app-download-img{
+    top: 50%;
+  }
+  footer{
+    padding: 25px 0;
+  }
+  footer .footer-credit p{
+    margin-top: 50px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .navbar-nav{
+    margin: 15px 0 15px 0 !important;
+  }
+  .nav-section .btn{
+    padding: 10px 20px;
+  }
+  .banner-section{
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+  .banner-section .ranking h6{
+    margin: 0 15px 0 3px;
+  }
+  .banner-section .banner-text h1{
+    font-size: 50px;
+  }
+  .banner-section .btn {
+    padding: 10px 20px;
+  }
+  .partner-section{
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .partner-section .owl-item .item{
+    width: 40%;
+    margin: 0 auto;
+  }
+  .features-section{
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .features-section .features-heading{
+    text-align: center;
+  }
+  .features-section .features-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .features-section .features-heading p{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .features-section .features-content{
+    margin: 0 !important;
+  }
+  .features-section .top-item{
+    margin: 20px 0 !important;
+  }
+  .features-section .top-item p{
+    width: 100%;
+    margin: 0 !important;
+  }
+  .features-section .middle-item{
+    margin: 20px 0 !important;
+  }
+  .features-section .middle-item p{
+    width: 100%;
+    margin: 0 !important;
+  }
+  .features-section .bottom-item{
+    margin: 20px 0 !important;
+  }
+  .features-section .bottom-item p{
+    width: 100%;
+    margin: 0 !important;
+  }
+  .jackpot-section{
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .jackpot-section .jackpot-heading{
+    padding: 0 !important;
+  }
+  .jackpot-section .jackpot-heading .left h2{
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 30px;
+    line-height: 45px;
+    border-right: 0;
+    border-bottom: 1px solid #4b4a4866;
+  }
+  .jackpot-section .jackpot-heading .right p{
+    width: 100%;
+    padding-top: 15px;
+  }
+  .jackpot-section .py-5{
+    padding-bottom: 0 !important;
+  }
+  .jackpot-section .jackpot-content .left{
+    margin: 15px 0;
+  }
+  .jackpot-section .jackpot-content .left p{
+    width: 100%;
+  }
+  .jackpot-section .jackpot-content .left .mb-5{
+    margin-bottom: 15px !important;
+  }
+  .jackpot-section .jackpot-content .center{
+    margin: 15px 0;
+  }
+  .jackpot-section .jackpot-content .center p{
+    width: 100%;
+  }
+  .jackpot-section .jackpot-content .center .mb-5{
+    margin-bottom: 15px !important;
+  }
+  .jackpot-section .jackpot-content .right{
+    margin: 15px 0;
+  }
+  .jackpot-section .jackpot-content .right p{
+    width: 100%;
+  }
+  .jackpot-section .jackpot-content .right .mb-5{
+    margin-bottom: 15px !important;
+  }
+  .integration-section{
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .integration-section h2{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .integration-section p{
+    width: 100%;
+    margin: 20px 0;
+  }
+  .integration-section .btn {
+    padding: 10px 20px;
+  }
+  .why-app-section {
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .why-app-section .section-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .why-app-section .section-heading p{
+    width: 100%;
+    margin: 20px auto;
+  }
+  .why-app-section .section-content p{
+    width: 100%;
+    margin: 20px 0 30px 0;
+  }
+  .ultimate-features-section{
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .ultimate-features-section .row{
+    flex-direction: column-reverse;
+  }
+  .ultimate-features-section .ultimate-features-heading{
+    /*text-align: center;*/
+  }
+  .ultimate-features-section .ultimate-features-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .ultimate-features-section .ultimate-features-heading p{
+    width: 100%;
+  }
+  .ultimate-features-section .ultimate-features-img {
+    position: unset;
+  }
+  .ultimate-features-section .btn {
+    padding: 10px 20px;
+  }
+  .pricing-section {
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .pricing-section .pricing-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .pricing-section .pricing-heading p{
+    width: 100%;
+  }
+  .pricing-section .py-5{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .pricing-section .mt-5{
+    margin-top: 30px !important;
+  }
+  .pricing-section .pricing-card-body .btn {
+    padding: 10px 30px;
+  }
+  .testimonial-section{
+    height: auto;
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .testimonial-section .testimonial-img{
+    position: unset;
+    width: auto;
+  }
+  .testimonial-section .testimonial-content .testimonial-heading{
+    text-align: center;
+  }
+  .testimonial-section .testimonial-content .testimonial-heading h2{
+    width: 100%;
+    font-size: 30px;
+  }
+  .testimonial-section .testimonial-content .testimonial-heading p{
+    width: 100%;
+    margin: 20px 0 50px 0;
+  }
+  .testimonial-section .testimonial-content{
+    margin: 50px 0;
+  }
+  .testimonial-section .review-slider .review p{
+    width: 100%;
+  }
+  .testimonial-section .review-slider .owl-nav{
+    right: 30%;
+    top: auto;
+  }
+  .faq-section {
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+  .testimonial-section .review-slider .owl-nav .owl-prev{
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+  .testimonial-section .review-slider .owl-nav .owl-next{
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+  .faq-section .my-5{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .faq-section .faq-heading h2{
+    font-size: 30px;
+  }
+  .faq-section .faq-heading p{
+    width: 100%;
+    margin: 20px 0;
+  }
+  .faq-section .faq-content .accordion-item .accordion-button{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 95%;
+  }
+  .faq-section .faq-content .accordion-button::after{
+    background-size: auto;
+  }
+  .faq-section .faq-content .accordion-button:not(.collapsed)::after{
+    background-size: auto;
+  }
+  .faq-section .faq-content .accordion-item p{
+    font-size: 14px;
+  }
+  .app-download-section{
+    margin-top: 20px;
+    padding: 20px 0 0 0;
+  }
+  .app-download-section .app-download-img{
+    position: unset;
+  }
+  .app-download-section .app-download-content h2 {
+    font-size: 25px;
+  }
+  .app-download-section .app-download-content p{
+    margin: 20px 0;
+  }
+  .app-download-section .app-download-content .download-icon img{
+    width: 30%;
+  }
+  .app-download-section .app-download-content{
+    margin-bottom: 30px;
+  }
+  .app-download-section .app-download-content .download-icon .me-3{
+    margin-right: 10px !important;
+  }
+  .app-download-section .app-download-content .download-icon .ms-3{
+    margin-left: 10px !important;
+  }
+  footer .footer-menu .my-5{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  footer .footer-menu li{
+      margin: 0 9px !important;
+  }
+  footer .footer-menu li a{
+      font-size: 12px;
+  }
+  footer .social-icon ul li {
+    margin: 0 10px;
+  }
+  footer .social-icon ul li a i {
+    font-size: 20px;
+  }
+  footer .footer-credit p {
+    font-size: 14px;
+    color: #fff3;
+    margin-top: 50px;
+  }
+
+
+}
